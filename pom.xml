@@ -12,20 +12,16 @@
     <artifactId>tutorial-rabbitmq-spring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>tutorial-rabbitmq-spring</name>
-    <description>tutorial-rabbitmq-spring</description>
+    <description>RabbitMQ con Spring</description>
     <properties>
+        <project.build.sourceencoding>UTF-8</project.build.sourceencoding>
         <java.version>21</java.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <version>3.2.5</version>
         </dependency>
     </dependencies>
 
@@ -37,5 +33,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
